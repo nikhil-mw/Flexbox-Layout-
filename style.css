@@ -43,11 +43,23 @@ p{
 .main{
     display: flex;
     gap: 50px;
+    margin: 20px;
 }
 
 .main section{
     flex: 1;
 }
-.main aside{
+.main aside {
     width: 400px;
+}
+
+.main aside h3{
+    background-color: coral;
+    padding: 10px;
+
+}
+.main aside li{
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-bottom: 1px solid black;
 }
