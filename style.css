@@ -8,9 +8,9 @@ body{
     font-family: 'Popins', sans-serif;
 }
 
-/* ul{
+ul{
     list-style-type: none;
-} */
+}
 
 a{
     text-decoration: none;
@@ -23,4 +23,31 @@ p{
     margin: 20px 0;
 }
 
+.header{
+    background-color: coral;
+    padding: 40px;
+}
 
+.main-menu{
+    display: flex;
+    padding: 20px;
+    background-color: lightgray;
+    gap: 20px;
+    
+}
+.main-menu a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    gap: 50px;
+}
+
+.main section{
+    flex: 1;
+}
+.main aside{
+    width: 400px;
+}
